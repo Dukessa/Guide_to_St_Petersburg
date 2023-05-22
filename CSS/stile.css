@@ -27,8 +27,6 @@ body {
 }
 
 a,
-ul,
-li,
 button,
 input {
   display: block;
@@ -43,9 +41,17 @@ input {
 }
 
 p,
+ul,
+li,
 span {
   display: block;
   margin: 0;
+  padding: 0;
+  border-color: transparent;
+  list-style: none;
+  background-color: transparent;
+  text-decoration: none;
+  color: inherit;
 }
 
 img {
@@ -556,7 +562,7 @@ img {
 .footer {
   display: flex;
   justify-content: space-between;
-  padding: 46px 230px 26px 97px;
+  padding: 3% 17% 2.1% 7%;
   width: 100%;
   height: 200px;
   background-color: var(--black);
@@ -565,7 +571,7 @@ img {
 .footer__desk {
   display: flex;
   align-self: flex-end;
-  width: 27%;
+  width: 29%;
   font-family: "Raleway";
   font-weight: var(--font-weight-Raleway);
   font-size: 12px;
@@ -582,9 +588,21 @@ img {
   margin-right: 58px;
 }
 
+.footer__span:focus {
+  color: var(--straw);
+}
+
+.footer__span:focus a {
+  color: var(--straw);
+}
+
 .footer__box {
   display: flex;
   flex-direction: column;
+}
+
+.footer__box:not(:last-child) {
+  margin-right: 10px;
 }
 
 .footer__nav-link {
