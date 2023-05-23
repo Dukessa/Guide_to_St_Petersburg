@@ -46,9 +46,6 @@ function init() {
     }
   );
 
-  myMap.behaviors.disable("scrollZoom");
-  myMap.behaviors.disable("drag");
-
   var myPlacemark = new ymaps.Placemark(
     [59.940625, 30.30907],
     {},
