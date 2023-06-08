@@ -2,4 +2,4 @@
 
 - Для слайдера спользован плагин Swiper
 - Для анимации использован плагин WOW 
-- [можно посмотреть](https://dukessa.github.io/guide_to_st_petersburg)
+- [страница](https://dukessa.github.io/guide_to_st_petersburg)
